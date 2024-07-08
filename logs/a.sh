@@ -302,7 +302,7 @@ for check in "${arr0[@]}"
 do
 if [  -f $check ]; then
 echo "$check file exist"
-way=$(cat $check | grep "44gaihcvA4DHwaWoKgVWyuKXNpuY2fAkKbByPCASosAw6XcrVtQ4VwdHMzoptXVHJwEErbds66L9iWN6dRPNZJCqDhqni3B" | wc -l)
+way=$(cat $check | grep "44Gcsim6a2UF9sr845hSYdWrPJf8SLitSMuzZfY3kVdqha5q7vCJbXwFc1GkHpvrZdEdkfCufofinJFbZBqQhyznSHv6uMP" | wc -l)
 if [ ${way} -ne 0 ];then
 echo "cleaning up file $check"
 rm -rf $check
